@@ -1,7 +1,7 @@
 {
   "name": "moa-plugin-kue",
-  "version": "1.0.1",
-  "description": "job queue",
+  "version": "1.0.2",
+  "description": "moajs job queue",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",

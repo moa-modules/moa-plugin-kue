@@ -3,10 +3,11 @@ function m(dir) {
   var _dir = project_root;
   
   if (dir) {
-    _dir = dir + "/app/queues";
+    _dir = dir;
   }
+  console.log(_dir);
   
-  return require(_dir);
+  return require(_dir + "/app/queues");
 }
 
 module.exports = m;
