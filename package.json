@@ -1,0 +1,26 @@
+{
+  "name": "moa-plugin-kue",
+  "version": "1.0.2",
+  "description": "job queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./node_modules/nmm-link/link.bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moajs/nmm-tmpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moajs/nmm-tmpl/issues"
+  },
+  "homepage": "https://github.com/moajs/nmm-tmpl#readme",
+  "dependencies": {
+    "kue": "^0.9.6",
+    "nmm-link": "^1.0.4",
+    "require-directory": "^2.1.1"
+  }
+}
