@@ -15,7 +15,8 @@ receive_init(receive_arr);
  * 接收信息，并持久化
  */
 function receive_init(receive_arr) {
-  var kue_config = require('../../config/kue');
+  var project_root = __dirname.split('node_modules')[0]
+  var kue_config = require(project_root + '/config/kue');
   var kue = require('kue')
     , queue = kue.createQueue(kue_config);
 

@@ -1,6 +1,7 @@
 var kue = require('kue')
-  , kue_config   = require('../../../config/kue')
-  , queue = kue.createQueue(kue_config);
+  , project_root = __dirname.split('node_modules')[0]
+  , kue_config = require(project_root + '/config/kue')
+  , queue = kue.createQueue({});
 
 module.exports =  function (obj) {
   console.log('wh_receive queue create: ' + obj);

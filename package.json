@@ -1,6 +1,6 @@
 {
   "name": "moa-plugin-kue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "job queue",
   "main": "index.js",
   "scripts": {
